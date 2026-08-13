@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:garba-semi-classical-dance-workshops-with-swapnil-dagliya-in-amsterdam@abcbollywoodbelgium.com
+DTSTAMP:20241006T000000Z
+DTSTART;VALUE=DATE:20241006
+DTEND;VALUE=DATE:20241007
+SUMMARY:Garba & Semi-Classical Dance Workshop in Amsterdam | Learn with Swapnil & Bloomleela Bollywood Dance
+LOCATION:BeatZone 391 Poeldijkstraat Amsterdam, NH, 1059 VL Netherlands
+URL:https://www.abcbollywoodbelgium.com/whats-on/#garba-semi-classical-dance-workshops-with-swapnil-dagliya-in-amsterdam
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//GIDF//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gidf-edition-five-2027@abcbollywoodbelgium.com
+DTSTAMP:20260724T090000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270510
+SUMMARY:Gent India Dans Festival — Edition Five
+LOCATION:Shoonya Dance Centre\, Stapelplein 41\, 9000 Gent
+DESCRIPTION:Three days of Indian dance in Ghent — workshops\, a gala showcase and an opening party. Programme and tickets are announced on Instagram first: @gentindiadansfestival.
+URL:https://www.abcbollywoodbelgium.com/festival/
+END:VEVENT
+END:VCALENDAR

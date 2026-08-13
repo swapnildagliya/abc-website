@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:garba-the-festive-spirit-of-gujarat-with-swapnil@abcbollywoodbelgium.com
+DTSTAMP:20260225T000000Z
+DTSTART;VALUE=DATE:20260225
+DTEND;VALUE=DATE:20260226
+SUMMARY:Garba Dance Class with Swapnil | Shoonya Dance Centre Ghent
+LOCATION:Shoonya Dance Centre 41 Stapelplein Gent, Vlaams Gewest, 9000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#garba-the-festive-spirit-of-gujarat-with-swapnil
+END:VEVENT
+END:VCALENDAR

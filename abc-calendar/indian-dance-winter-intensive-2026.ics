@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:indian-dance-winter-intensive-2026@abcbollywoodbelgium.com
+DTSTAMP:20260130T000000Z
+DTSTART;VALUE=DATE:20260130
+DTEND;VALUE=DATE:20260202
+SUMMARY:Winter Intensive 2026 in Ghent | Bhangra, Semi-Classical & Indian Folk Dance with Swapnil Dagliya
+LOCATION:Shoonya Dance Centre 41 Stapelplein Gent, Vlaams Gewest, 9000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#indian-dance-winter-intensive-2026
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:lavani-workshop-in-rome-italy@abcbollywoodbelgium.com
+DTSTAMP:20250323T000000Z
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+SUMMARY:Lavani Dance Workshop in Rome, Italy - Bollywood Espresso Festival | 22-23 March
+LOCATION:Il Sole e La Luna 115 Via Casilina Vecchia Roma, Lazio, 00182 Italy
+URL:https://www.abcbollywoodbelgium.com/whats-on/#lavani-workshop-in-rome-italy
+END:VEVENT
+END:VCALENDAR

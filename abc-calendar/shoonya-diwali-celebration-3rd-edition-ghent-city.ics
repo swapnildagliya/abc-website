@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:shoonya-diwali-celebration-3rd-edition-ghent-city@abcbollywoodbelgium.com
+DTSTAMP:20241116T000000Z
+DTSTART;VALUE=DATE:20241116
+DTEND;VALUE=DATE:20241117
+SUMMARY:Diwali Celebration in Ghent – Dance, Music, and Indian Culture | 16th Nov 2024
+LOCATION:Shoonya Dance Centre 41 Stapelplein Gent, Vlaams Gewest, 9000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#shoonya-diwali-celebration-3rd-edition-ghent-city
+END:VEVENT
+END:VCALENDAR

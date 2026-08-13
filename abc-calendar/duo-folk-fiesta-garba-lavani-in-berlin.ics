@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:duo-folk-fiesta-garba-lavani-in-berlin@abcbollywoodbelgium.com
+DTSTAMP:20250802T000000Z
+DTSTART;VALUE=DATE:20250802
+DTEND;VALUE=DATE:20250803
+SUMMARY:Indian Folk Dance Workshop in Berlin | Garba & Lavani with Swapnil & Shampa
+LOCATION:La Caminada Tanzstudio 21 Böckhstraße Berlin, BE, 10967 Germany
+URL:https://www.abcbollywoodbelgium.com/whats-on/#duo-folk-fiesta-garba-lavani-in-berlin
+END:VEVENT
+END:VCALENDAR

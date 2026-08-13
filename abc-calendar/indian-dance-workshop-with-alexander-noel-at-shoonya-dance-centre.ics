@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:indian-dance-workshop-with-alexander-noel-at-shoonya-dance-centre@abcbollywoodbelgium.com
+DTSTAMP:20250902T000000Z
+DTSTART;VALUE=DATE:20250902
+DTEND;VALUE=DATE:20250903
+SUMMARY:Noel Alexander Indian Dance Workshop in Europe | Shoonya Dance Centre & ABC a bollywood company
+LOCATION:Shoonya Dance Centre 41 Stapelplein Gent, Vlaams Gewest, 9000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#indian-dance-workshop-with-alexander-noel-at-shoonya-dance-centre
+END:VEVENT
+END:VCALENDAR

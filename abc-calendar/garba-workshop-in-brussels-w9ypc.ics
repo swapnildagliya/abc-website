@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:garba-workshop-in-brussels-w9ypc@abcbollywoodbelgium.com
+DTSTAMP:20241012T000000Z
+DTSTART;VALUE=DATE:20241012
+DTEND;VALUE=DATE:20241013
+SUMMARY:Garba Workshops with Swapnil Dagliya in Brussels, Antwerp, & Ghent | Learn Traditional Indian Dance
+LOCATION:Shoonya Dance Centre 41 Stapelplein Gent, Vlaams Gewest, 9000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#garba-workshop-in-brussels-w9ypc
+END:VEVENT
+END:VCALENDAR

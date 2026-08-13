@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:ruipiy2k5toglyovl5rihc9up4p15r@abcbollywoodbelgium.com
+DTSTAMP:20250204T000000Z
+DTSTART;VALUE=DATE:20250204
+DTEND;VALUE=DATE:20250219
+SUMMARY:Join Indian Dance Classes in Belgium - Bollywood, Garba, Yoga & More at Shoonya Dance Centre | Ghent
+LOCATION:Shoonya Dance Centre 41 Stapelplein Gent, Vlaams Gewest, 9000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#ruipiy2k5toglyovl5rihc9up4p15r
+END:VEVENT
+END:VCALENDAR

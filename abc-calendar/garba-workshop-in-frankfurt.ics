@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:garba-workshop-in-frankfurt@abcbollywoodbelgium.com
+DTSTAMP:20250803T000000Z
+DTSTART;VALUE=DATE:20250803
+DTEND;VALUE=DATE:20250804
+SUMMARY:Garba Workshop in Frankfurt | Learn with Swapnil Dagliya & Desihop
+LOCATION:Sportzentrum Eschborn 7 Stuttgarter Straße Eschborn, HE, 65760 Germany
+URL:https://www.abcbollywoodbelgium.com/whats-on/#garba-workshop-in-frankfurt
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:gentse-feesten-2026@abcbollywoodbelgium.com
+DTSTAMP:20260723T000000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260727
+SUMMARY:Gentse Feesten 2026 — Indian dance at Het Bal
+LOCATION:Baudelopark · Het Bal, Gent
+URL:https://www.abcbollywoodbelgium.com/whats-on/#gentse-feesten-2026
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:semi-classical-lavani-dance-workshops-brussels@abcbollywoodbelgium.com
+DTSTAMP:20260322T000000Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:Indian Dance Workshops Brussels: Semi-Classical & Lavani with Swapnil Dagliya
+LOCATION:KB Dance Hub 38 Rue d'Arlon Bruxelles, Bruxelles, 1000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#semi-classical-lavani-dance-workshops-brussels
+END:VEVENT
+END:VCALENDAR

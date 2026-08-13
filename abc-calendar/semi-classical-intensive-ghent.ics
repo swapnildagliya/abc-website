@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:semi-classical-intensive-ghent@abcbollywoodbelgium.com
+DTSTAMP:20240907T000000Z
+DTSTART;VALUE=DATE:20240907
+DTEND;VALUE=DATE:20240909
+SUMMARY:Indian Semi-Classical Dance Intensive at Shoonya Dance Centre in Ghent | Swapnil Dagliya
+LOCATION:Shoonya Dance vzw 41 Stapelplein Gent, Vlaams Gewest, 9000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#semi-classical-intensive-ghent
+END:VEVENT
+END:VCALENDAR

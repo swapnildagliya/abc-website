@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:garba-dandiya-workshop-with-swapnil-mastani-lille-france@abcbollywoodbelgium.com
+DTSTAMP:20250330T000000Z
+DTSTART;VALUE=DATE:20250330
+DTEND;VALUE=DATE:20250331
+SUMMARY:Garba/Dandiya Workshop in Lille with Swapnil Dagliya | 30th March
+LOCATION:Studios Nord 128 Rue du Long Pot Lille, Hauts-de-France, 59800 France
+URL:https://www.abcbollywoodbelgium.com/whats-on/#garba-dandiya-workshop-with-swapnil-mastani-lille-france
+END:VEVENT
+END:VCALENDAR

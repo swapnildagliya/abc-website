@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:shoonya-navratri-garba-dandiya-night-5th-edition@abcbollywoodbelgium.com
+DTSTAMP:20250927T000000Z
+DTSTART;VALUE=DATE:20250927
+DTEND;VALUE=DATE:20250928
+SUMMARY:Navratri 2025 Garba & Dandiya Night in Ghent | Shoonya 5th Edition Celebration
+LOCATION:Shoonya Dance Centre 41 Stapelplein Gent, Vlaams Gewest, 9000 Belgium
+URL:https://www.abcbollywoodbelgium.com/whats-on/#shoonya-navratri-garba-dandiya-night-5th-edition
+END:VEVENT
+END:VCALENDAR

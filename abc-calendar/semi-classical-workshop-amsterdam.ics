@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABC a bollywood company//Agenda//EN
+BEGIN:VEVENT
+UID:semi-classical-workshop-amsterdam@abcbollywoodbelgium.com
+DTSTAMP:20240901T000000Z
+DTSTART;VALUE=DATE:20240901
+DTEND;VALUE=DATE:20240902
+SUMMARY:Indian Semi-Classical Dance Workshop in Amsterdam - Learn with Swapnil Dagliya | Bloomleela
+LOCATION:BeatZone 391 Poeldijkstraat Amsterdam, NH, 1059 VL Netherlands
+URL:https://www.abcbollywoodbelgium.com/whats-on/#semi-classical-workshop-amsterdam
+END:VEVENT
+END:VCALENDAR
