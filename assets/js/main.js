@@ -59,10 +59,16 @@
   }
 
   /* ---------- scroll reveals ---------- */
-  const io = new IntersectionObserver(entries => {
-    entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
-  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-  $$('.rv, .rv-scale, .rv-img').forEach(el => io.observe(el));
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    $$('.rv, .rv-scale, .rv-img').forEach(el => io.observe(el));
+  } else {
+    // no IntersectionObserver support (or disabled) — force-reveal instead of leaving
+    // every .rv/.rv-scale/.rv-img block at its hidden pre-reveal opacity forever.
+    $$('.rv, .rv-scale, .rv-img').forEach(el => el.classList.add('in'));
+  }
 
   /* auto-stagger siblings marked with data-stagger on the parent */
   $$('[data-stagger]').forEach(parent => {
@@ -192,23 +198,6 @@
     });
   }
 
-  /* ---------- mailto contact form ---------- */
-  $$('[data-mailto-form]').forEach(mForm => {
-    mForm.addEventListener('submit', e => {
-      e.preventDefault();
-      const f = new FormData(mForm);
-      const subject = encodeURIComponent('[Website] ' + (f.get('subject') || 'Hello'));
-      const lines = [];
-      for (const [key, value] of f.entries()) {
-        if (key === 'subject') continue;
-        const label = key.replace(/[-_]+/g, ' ').replace(/\b\w/g, m => m.toUpperCase());
-        lines.push(label + ': ' + value);
-      }
-      const body = encodeURIComponent(lines.join('\n'));
-      location.href = 'mailto:' + mForm.dataset.mailtoForm + '?subject=' + subject + '&body=' + body;
-    });
-  });
-
   /* ---------- footer year ---------- */
   $$('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
 
@@ -274,20 +263,25 @@
 
   /* ---------- stat counters ---------- */
   const fmt = (n, suffix) => n + (suffix || '');
-  const cio = new IntersectionObserver(es => es.forEach(en => {
-    if (!en.isIntersecting) return;
-    cio.unobserve(en.target);
-    const el = en.target, target = parseInt(el.dataset.count, 10), suffix = el.dataset.suffix || '';
-    if (reduced) { el.textContent = fmt(target, suffix); return; }
-    const t0 = performance.now(), dur = 1400;
-    const tick = t => {
-      const p = Math.min((t - t0) / dur, 1), eased = 1 - Math.pow(1 - p, 3);
-      el.textContent = fmt(Math.round(target * eased), suffix);
-      if (p < 1) requestAnimationFrame(tick);
-    };
-    requestAnimationFrame(tick);
-  }), { threshold: 0.35 });
-  $$('[data-count]').forEach(el => cio.observe(el));
+  if ('IntersectionObserver' in window) {
+    const cio = new IntersectionObserver(es => es.forEach(en => {
+      if (!en.isIntersecting) return;
+      cio.unobserve(en.target);
+      const el = en.target, target = parseInt(el.dataset.count, 10), suffix = el.dataset.suffix || '';
+      if (reduced) { el.textContent = fmt(target, suffix); return; }
+      const t0 = performance.now(), dur = 1400;
+      const tick = t => {
+        const p = Math.min((t - t0) / dur, 1), eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = fmt(Math.round(target * eased), suffix);
+        if (p < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    }), { threshold: 0.35 });
+    $$('[data-count]').forEach(el => cio.observe(el));
+  } else {
+    // no IntersectionObserver — skip the count-up animation and show the final numbers.
+    $$('[data-count]').forEach(el => { el.textContent = fmt(parseInt(el.dataset.count, 10), el.dataset.suffix || ''); });
+  }
 
   /* ---------- card tilt ---------- */
   if (matchMedia('(hover: hover) and (pointer: fine)').matches && !reduced) {
@@ -427,6 +421,7 @@
     if (img) img.replaceWith(v); else (holder.querySelector('.ed-frame') || holder).prepend(v);
     return v;
   };
+  if (!('IntersectionObserver' in window)) return;   // static credited poster is a fine fallback
   const io = new IntersectionObserver(entries => entries.forEach(en => {
     let v = en.target.querySelector('video');
     if (en.isIntersecting) {

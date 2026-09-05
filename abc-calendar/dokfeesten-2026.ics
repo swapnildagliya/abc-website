@@ -4,8 +4,7 @@ PRODID:-//ABC a bollywood company//Agenda//EN
 BEGIN:VEVENT
 UID:dokfeesten-2026@abcbollywoodbelgium.com
 DTSTAMP:20260829T000000Z
-DTSTART;VALUE=DATE:20260829
-DTEND;VALUE=DATE:20260830
+DTSTART;TZID=Europe/Brussels:20260829T182000
 SUMMARY:Dokfeesten — Indian dance
 LOCATION:Gent
 URL:https://www.abcbollywoodbelgium.com/whats-on/#dokfeesten-2026
