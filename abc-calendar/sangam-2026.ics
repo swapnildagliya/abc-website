@@ -27,7 +27,7 @@ DTSTART;TZID=Europe/Brussels:20261107T193000
 DTEND;TZID=Europe/Brussels:20261107T204500
 SUMMARY:Sangam 2026 — Indian dance production
 LOCATION:Shoonya Dance Centre, Stapelplein 41, 9000 Gent
-URL:https://www.abcbollywoodbelgium.com/whats-on/#sangam-2026
+URL:https://abcdans.com/whats-on/#sangam-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:sangam-2026-2@abcbollywoodbelgium.com
@@ -36,6 +36,6 @@ DTSTART;TZID=Europe/Brussels:20261108T150000
 DTEND;TZID=Europe/Brussels:20261108T161500
 SUMMARY:Sangam 2026 — Indian dance production
 LOCATION:Shoonya Dance Centre, Stapelplein 41, 9000 Gent
-URL:https://www.abcbollywoodbelgium.com/whats-on/#sangam-2026
+URL:https://abcdans.com/whats-on/#sangam-2026
 END:VEVENT
 END:VCALENDAR
